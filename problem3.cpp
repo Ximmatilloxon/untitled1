@@ -31,6 +31,6 @@ int main(){
         m[i.getGroupName()] += 1;
     }
     for (auto i:m) {
-        cout << i.first << " : " << i.second << endl;
+        cout << i.first << ":" << i.second << endl;
     }
 }
